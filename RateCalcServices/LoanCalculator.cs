@@ -32,7 +32,7 @@ namespace RateCalcServices
         }
 
         /// <summary>
-        /// Get
+        /// Get a loan while averaging the rate of the existing offers
         /// </summary>
         /// <param name="requestedAmount"></param>
         /// <returns></returns>

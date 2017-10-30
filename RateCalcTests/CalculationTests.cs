@@ -29,7 +29,7 @@ namespace RateCalcTests
             var service = TestCommon.GetLoanOfferServiceExampleData();
             var loanCalculator = new LoanCalculator(service);
 
-            var loan = loanCalculator.GetLoanByAverageRate(1250);
+            loanCalculator.GetLoanByAverageRate(1250);
         }
     }
 }

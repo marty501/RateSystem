@@ -57,11 +57,11 @@ namespace RateCalcSystem
 
         private static void UsageInfo()
         {
-            Console.WriteLine("ratecalcsystem.exe inputfile.csv amount");
-            Console.WriteLine("\n\nParameters:");
-            Console.WriteLine("inputfile.csv - an input data file");
-            Console.WriteLine("amount - Load amount requested; a number in the range 1000-15000 in increments of 100");
-            Console.WriteLine("-?\t\tThis help information.");
+            Console.WriteLine("\nratecalcsystem.exe inputfile.csv amount");
+            Console.WriteLine("\nParameters:");
+            Console.WriteLine("\tinputfile.csv - an input data file");
+            Console.WriteLine("\tamount - Load amount requested; a number in the range 1000-15000 in\n\t\t increments of 100");
+            Console.WriteLine("\t-? - this help information.");
         }
     }
 }
