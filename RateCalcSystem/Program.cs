@@ -37,8 +37,6 @@ namespace RateCalcSystem
             Console.WriteLine("Rate: {0}%", loan.AnnualRatePercentage);
             Console.WriteLine("Monthly repayment: £{0}", Math.Round(loan.PeriodRepaymentAmount, 2));
             Console.WriteLine("Total repayment: £{0}", Math.Round(loan.TotalRepaymentAmount,2));
-
-            Console.ReadLine();
         }
 
         private static bool InitialiseArgs(string[] args)
